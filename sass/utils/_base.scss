@@ -1,0 +1,84 @@
+.h2__class {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+}
+.skills-flex {
+  display: flex;
+  margin: inherit;
+  align-items: center;
+  list-style: none;
+  padding-left: 0px;
+  gap: 30px;
+}
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+.social-links--style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--social-grey);
+}
+.social-links--style:hover {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--second-white);
+  background: var(--main-blue);
+  cursor: pointer;
+  transition: var(--transition-timing);
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--second-black);
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 93px;
+}
+.logo__color {
+  color: var(--main-blue);
+}
+.subscribe--block-placeholder:focus {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.icon {
+  text-decoration: none;
+  border-style: none;
+  background-color: var(--main-white);
+  vertical-align: text-bottom;
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  fill: var(--main-silver);
+  stroke: var(--main-silver);
+  color: var(--main-silver);
+}
+.icon-svg:hover {
+  fill: var(--main-blue);
+  transition: var(--transition-timing);
+  cursor: pointer;
+}
+.figure {
+  margin: 0;
+  background-color: var(--main-white);
+  margin-right: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}

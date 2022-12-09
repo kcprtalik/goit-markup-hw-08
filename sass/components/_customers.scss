@@ -1,0 +1,25 @@
+.customers__padding {
+  padding-block: 94px;
+}
+.customers {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding-left: 0;
+  margin-block: 0;
+}
+.customers__logo {
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  fill: var(--social-grey);
+  border-radius: 4px;
+  outline: 1px solid var(--social-grey);
+  &:hover {
+    fill: var(--main-blue);
+    transition: var(--transition-timing);
+    outline-color: var(--main-blue);
+    cursor: pointer;
+  }
+}
+

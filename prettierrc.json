@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontLigatures": false,
+  "files.autoSave": "afterDelay",
+  "editor.wordWrap": "on",
+  "workbench.settings.useSplitJSON": true,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  }
+}
